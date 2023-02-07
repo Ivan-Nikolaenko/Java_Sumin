@@ -6,5 +6,7 @@ public class MyFamily {
         System.out.println("Anna");
         System.out.println("David");
         System.out.println("Polina");
+        Object o = new Object();
+
     }
 }
