@@ -13,8 +13,5 @@ public class HWarrays {
         for (int i : nums2) {
             System.out.println(i);
         }
-
-
-
     }
 }
