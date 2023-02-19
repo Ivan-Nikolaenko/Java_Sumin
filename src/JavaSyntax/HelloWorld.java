@@ -2,7 +2,10 @@ package JavaSyntax;
 
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello World");
-        Object o = new Object();
+        ParamTest test = new ParamTest();
+                int square = test.square(15);
+        System.out.println(square);
+        double result = test.setDimens(19,39,11);
+        System.out.println(result);
     }
 }
