@@ -1,4 +1,4 @@
-package HomeWork;
+package HomeWork.OOP;
 
 public class SquareHW {
     public static void main(String[] args) {

@@ -1,9 +1,16 @@
-package JavaSyntax;
+package JavaSyntax.OOP;
 
 public class ParamTest {
     double width;
     double height;
     double length;
+
+    public ParamTest(double width, double height, double length) {
+        this.width = width;
+        this.height = height;
+        this.length = length;
+    }
+
     int square(int i){
         return i*i;
     }

@@ -1,4 +1,4 @@
-package HomeWork;
+package HomeWork.OOP;
 
 public class Rect {
     double length;

@@ -1,4 +1,4 @@
-package JavaSyntax;
+package JavaSyntax.OOP;
 
 public class Space {
     public static void main(String[] args) {
