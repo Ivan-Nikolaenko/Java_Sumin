@@ -2,17 +2,18 @@ package HomeWork.OOP;
 
 public class Main {
     public static void main(String[] args) {
-        Monstro m1 = new Monstro(4,3,6);
-        m1.voice(5,"АрррРРр");
-        Box box1 = new Box(10);
-        Box box2 = new Box(20,20,10);
-        Box box3 = box1.sumBox(box2);
-        Box box4 = new Box(box1, box3);
-        box1.showVolume();
-        box2.showVolume();
-        box3.showVolume();
-        double volumeSum = box1.volume() + box3.volume();
-        System.out.println("box1 + box3 = " + volumeSum);
-        box4.showVolume();
+        String s1 = "Это Иван, ему 34 года,его рост 166.3 см. Должность - программист.";
+        String name = s1.substring(4,8);
+        String age =s1.substring(14,16);
+        String growth=s1.substring(31,36);
+        String spec=s1.substring(53,64);
+        int ageInt = Integer.parseInt(age);
+        double growthDouble = Double.parseDouble(growth);
+        Man m1 = new Man(name,spec,ageInt,growthDouble);
+        System.out.println(m1.getAge());
+        System.out.println(m1.getName());
+        System.out.println(m1.getGrowth());
+        System.out.println(m1.getSpec());
+
     }
 }
