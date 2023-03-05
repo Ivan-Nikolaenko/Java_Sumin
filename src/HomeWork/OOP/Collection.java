@@ -25,6 +25,7 @@ public class Collection {
         str.add("Nine");
         str.add("Ten");
 
+
         ArrayList<String> union = new ArrayList<>();
         for (int i = 0; i < numbs.size(); i++) {
             String s = numbs.get(i) + " - " + str.get(i);
