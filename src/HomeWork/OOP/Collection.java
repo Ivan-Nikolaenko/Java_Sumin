@@ -33,7 +33,7 @@ public class Collection {
         }
 
         //Последнее условия ДЗ.
-        for(String uni : str){
+        for(String st : union){
             System.out.println(union);
         }
 
