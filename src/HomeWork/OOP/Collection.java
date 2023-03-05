@@ -13,7 +13,6 @@ public class Collection {
         }
         //Вторая коллекция строки
         ArrayList<String> str = new ArrayList<>();
-
         str.add("One");
         str.add("Two");
         str.add("Three");
@@ -24,8 +23,7 @@ public class Collection {
         str.add("Eight");
         str.add("Nine");
         str.add("Ten");
-
-
+        //третья коллекция объединения
         ArrayList<String> union = new ArrayList<>();
         for (int i = 0; i < numbs.size(); i++) {
             String s = numbs.get(i) + " - " + str.get(i);
@@ -33,8 +31,8 @@ public class Collection {
         }
 
         //Последнее условия ДЗ.
-        for(String st : union){
-            System.out.println(union);
+        for(String s : union){
+            System.out.println(s);
         }
 
     }
