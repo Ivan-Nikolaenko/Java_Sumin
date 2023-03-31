@@ -12,7 +12,6 @@ public class Main {
         System.out.println(a);
         int b = MyMath.sum(1,6,1);
         System.out.println(b);
-
         String s = "1000";
         String s1 = "1000";
         int z = Integer.parseInt(s);
